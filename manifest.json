@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "内涵段子",
+	"description": "获取内涵段子社区的最新(最热分类)段子一枚～",
+	"version": "1.0",
+	"homepage_url": "https://github.com/h01/neihanduanzi",
+	"icons": {
+		"128": "icon.png"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": ["http://www.neihanshequ.com/*", "notifications"]
+}
